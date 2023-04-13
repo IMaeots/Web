@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+        <link rel="stylesheet"  href="styles/master.css">
+        <title>Google Advanced Search</title>
+    </head>
+    <body>
+        <div class="top-body">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/544px-Google_2015_logo.svg.png" alt="Google logo">
+            <a href="index.html">Google Search</a>
+        </div>
+
+        <div class="main-container">
+          <div style="margin-bottom: 5%; margin-top: 5%;">
+            <h2 >Find pages with... </h2>
+          </div>
+          
+            <form action="https://google.com/search" method="GET">
+              <div class="container-inputs">
+                <div class="inner-left-container-inputs">
+                  <span id="find-pages-with">all these words: </span>
+                </div>
+                  <div class="inner-right-container-inputs">
+                    <input value="" autofocus="autofocus" name="as_q" type="text" />
+                  </div>
+              </div>
+              
+              <br />
+
+              <div class="container-inputs">
+                <div class="inner-left-container-inputs">
+                  <span id="find-pages-with">this exact word or phrase: </span>
+                </div>
+                <div class="inner-right-container-inputs">
+                  <input value="" autofocus="autofocus" name="as_epq" type="text" />
+                </div>
+              </div>
+              
+              <br />
+
+              <div class="container-inputs">
+                <div class="inner-left-container-inputs">
+                  <span id="find-pages-with">any of these words: </span>
+                </div>
+                  <div class="inner-right-container-inputs">
+                    <input value="" autofocus="autofocus" name="as_oq" type="text" />
+                  </div>
+              </div>
+            
+              <br />
+
+              <div class="container-inputs">
+                <div class="inner-left-container-inputs">
+                  <span id="find-pages-with">none of these words: </span>
+                </div>
+                <div class="inner-right-container-inputs">
+                  <input value="" autofocus="autofocus" name="as_eq" type="text" />
+                </div>
+              </div>
+          
+               <br />
+
+              <input class="btnBlue" type="submit" value="Advanced search">
+            
+            </form>
+        </div>
+    </body>
+</html>
