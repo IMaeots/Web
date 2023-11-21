@@ -1,5 +1,5 @@
 # Web
-This repository contains different Web development projects that I've done.
+This repository contains 2 different simple Web Dev projects that I've done.
 
 ### List of projects
 - Search - Google like visual with GET methods to google.com (mainly html)
